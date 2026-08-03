@@ -9,9 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: cicddemo-2026
+
 
     steps:
       - name: Checkout source
